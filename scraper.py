@@ -50,7 +50,13 @@ class AsyncScraper:
             'twitter': re.compile(r'(?:twitter\.com|x\.com)/[\w]+'),
             'facebook': re.compile(r'facebook\.com/[\w.]+'),
             'instagram': re.compile(r'instagram\.com/[\w.]+'),
-            'youtube': re.compile(r'youtube\.com/(?:channel/|user/|c/|@)[\w-]+')
+            'youtube': re.compile(r'youtube\.com/(?:channel/|user/|c/|@)[\w-]+'),
+            'tiktok': re.compile(r'tiktok\.com/@[\w.-]+'),
+            'threads': re.compile(r'threads\.net/@[\w.-]+'),
+            'pinterest': re.compile(r'pinterest\.com/[\w.-]+'),
+            'snapchat': re.compile(r'snapchat\.com/add/[\w.-]+'),
+            'telegram': re.compile(r't\.me/[\w]+'),
+            'whatsapp': re.compile(r'wa\.me/[\d]+')
         }
 
     def normalize_urls(self, urls: List[str]) -> List[str]:

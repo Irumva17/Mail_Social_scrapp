@@ -5,7 +5,7 @@ A professional-grade, asynchronous Python tool designed to extract **Emails** an
 ## ✨ Features
 
 - **⚡ Blazing Fast**: Processes hundreds of sites per minute using asynchronous I/O (`asyncio` + `aiohttp`).
-- **📧 Smart Detection**: Extracts emails and social profiles (LinkedIn, Twitter, Facebook, Instagram, YouTube).
+- **📧 Smart Detection**: Extracts emails and social profiles (LinkedIn, X, FB, Insta, YouTube, TikTok, Threads, etc.).
 - **🕸️ Deep Crawling**: Automatically checks `/contact`, `/about`, and other relevant pages if data is missing on the homepage.
 - **🛡️ Evasion & Reliability**:
   - Auto-rotates User-Agents (including MS Edge/Chrome).
